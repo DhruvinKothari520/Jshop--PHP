@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>For Women</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/index.css">
+	
+	<!--for go to top button-->
+	<link rel="stylesheet" href="style.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--for slide show-->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+
+<style>
+
+body{
+background-image:url("cate.jpg");
+  background-repeat:repeat-x;
+  }
+  
+.head img {
+  float: left;
+  width: 100px;
+  height: 89px;
+  background: #555;
+}
+ 
+</style>
+<script>
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+</script>
+</head>
+
+	<body>
+	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+	<div class="head">
+					<img src="logo.jpg" height="45px" alt="logo" />
+	<div class="header">
+  
+  <div class="header-right">
+    <a href="index.html">Home</a>
+	<a href="men.html">For Men</a>
+	<a href="women.html">For Women</a>
+    <a class="active" href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+	<a href="login.php">logout</a>
+  </div>
+  </div>
+</div>
+
+	</footer>	
+		
+	</center>	
+	
+		<!-- The content of your page would go here. -->
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+				<div class="head">
+					<img src="logo.jpg" height="45px" hspace="170" alt="logo" />
+				<br><br><br><br><br>
+				</div>
+				<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Company<span>logo</span></h3>
+
+				<p class="footer-company-name"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Jewellery Shop &copy; 2019</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span></span> Sardhar, Rajkot</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>7046484365</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">j.shop@gmail.com</a></p>
+				</div>
+
+			</div>
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We offer a variety of metal options including titanium, tungsten and ceramic.
+				<span><br>Share our site</span>
+				<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+				<a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
+				<a href="https://in.linkedin.com/" class="fa fa-linkedin"></a>
+				<a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram"></a>
+				</p>
+			</div>
+			
+		</footer>
+
+		
+	<center>
+	<footer style="background-color:black;color:white;height:50px;"><br>
+	<b>&copy; 2021 world Jewellery All Rights Reserved | Designed By</b><b style="color:tomato;"> Dhruvin Kothari</b>
+	</footer>
+	</center>
+
+	</body>
+
+</html>

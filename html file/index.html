@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Home page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/index.css">
+	
+	<!--for go to top button-->
+	<link rel="stylesheet" href="style.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--for slide show-->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+
+<style>
+
+body{
+background-image:url("cate.jpg");
+  background-repeat:repeat-x;
+  }
+  
+.head img {
+  float: left;
+  width: 100px;
+  height: 89px;
+  background: #555;
+}
+ 
+</style>
+<script>
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+</script>
+</head>
+
+	<body>
+	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+	<div class="head">
+					<img src="logo.jpg" height="45px" alt="logo" />
+	<div class="header">
+  
+   <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+	<a href="men.html">For Men</a>
+	<a href="women.html">For Women</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="login.html">Login</a>
+  </div>
+  </div>
+</div>
+<center>
+
+<!-- Start Slide show -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/b1.jpg" alt="b1" title="Gold & Diamonds" id="wows1_0"/></li>
+		<li><img src="data1/images/b2.jpg" alt="b2" title="Chain" id="wows1_1"/></li>
+		<li><img src="data1/images/sl1.jpg" alt="sl1" title="White Diamond ring" id="wows1_2"/></li>
+		<li><img src="data1/images/sl4.jpg" alt="sl4" title="Yellow Diamond ring" id="wows1_3"/></li>
+		<li><img src="data1/images/sl7.jpg" alt="sl7" title="Silver" id="wows1_4"/></li>
+		<li><img src="data1/images/b3.jpg" alt="bootstrap carousel" title="Black ring" id="wows1_5"/></a></li>
+		<li><img src="data1/images/sl10.jpg" alt="sl10" title="new shapes" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="b1"><span><img src="data1/tooltips/b1.jpg" alt="b1"/>1</span></a>
+		<a href="#" title="b2"><span><img src="data1/tooltips/b2.jpg" alt="b2"/>2</span></a>
+		<a href="#" title="sl1"><span><img src="data1/tooltips/sl1.jpg" alt="sl1"/>3</span></a>
+		<a href="#" title="sl4"><span><img src="data1/tooltips/sl4.jpg" alt="sl4"/>4</span></a>
+		<a href="#" title="sl7"><span><img src="data1/tooltips/sl7.jpg" alt="sl7"/>5</span></a>
+		<a href="#" title="b3"><span><img src="data1/tooltips/b3.jpg" alt="Black"/>6</span></a>
+		<a href="#" title="sl10"><span><img src="data1/tooltips/sl10.jpg" alt="sl10"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End Slide Show code section -->
+<br><br><br><br>
+<b style="color:Black;font-size:50px;">Latest Designs With Best Prices</b><br><br>
+<p style="color:Orange;font-size:20px;">With Our Jewellery You Discover Your Natural Beauty</p>
+
+<footer style="background-image:url('cate.jpg');">
+<b style="color:tomato;font-size:60px;"><hr>Letest Design Gallary<hr></b>
+
+<table border="0">
+<tr>
+				<td>	<a href="mr1.html">
+						<img src="53.jpg" alt="" height="300px"></a>
+				</td>
+					<td>
+						<a href="mr2.html">
+						<img src="58.jpg" alt="" height="300px"></a>
+					</td>
+					<td>
+						<a href="mr3.html">
+						<img src="59.jpg" alt="" height="300px"></a>
+					</td>
+</tr>		
+		</table>
+
+	</footer>	
+		
+	</center>
+	
+	
+	<div class="header">
+		<a href="login.php"><b>Logout</b></a>
+	</div>
+  
+	<!-- The content of your page would go here. -->
+		<footer class="footer-distributed">
+
+				<div class="footer-left">
+				<div class="head">
+					<img src="logo.jpg" height="45px" hspace="170" alt="logo" />
+				<br><br><br><br><br><br>
+				</div>
+				<h3>
+				Company<span>logo</span></h3>
+
+				<p class="footer-company-name"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				Jewellery Shop &copy; 2019</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span></span> Sardhar, Rajkot</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>7046484365</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">j.shop@gmail.com</a></p>
+				</div>
+
+			</div>
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We offer a variety of metal options including titanium, tungsten and ceramic.
+				<span><br>Share our site</span>
+				<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+				<a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
+				<a href="https://in.linkedin.com/" class="fa fa-linkedin"></a>
+				<a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram"></a>
+				</p>
+			</div>
+			
+		</footer>
+
+		
+	<center>
+	<footer style="background-color:black;color:white;height:50px;"><br>
+	<b>&copy; 2018 world Jewellery All Rights Reserved | Designed By</b><b style="color:tomato;"> Tejas Metaliya & Abhi Dobariya</b>
+	</footer>
+	</center>
+
+	</body>
+
+</html>
